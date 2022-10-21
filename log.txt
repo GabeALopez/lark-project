@@ -1,0 +1,59 @@
+commit ad4456fca400f46e005e138d2adefe34e3321fc3
+Author: Gabriel Lopez <gabriel.andres.lopez03@gmail.com>
+Date:   Fri Oct 21 01:26:29 2022 -0400
+
+    forgot the boss, just added him
+
+commit 444f7167d67cfd8aab8563d90d7c25fea5e0702d
+Author: Gabriel Lopez <gabriel.andres.lopez03@gmail.com>
+Date:   Fri Oct 21 01:09:56 2022 -0400
+
+    finished skeleton
+
+commit 796c789a87a0fe835ad5812567b4e32bae0229c7
+Author: Gabriel Lopez <gabriel.andres.lopez03@gmail.com>
+Date:   Thu Oct 20 23:31:00 2022 -0400
+
+    the file did not do anything
+
+commit a1b4dcd5d4ae541ef4b031a0f70639a6b2bc613f
+Author: Gabriel Lopez <gabriel.andres.lopez03@gmail.com>
+Date:   Tue Oct 18 18:43:50 2022 -0400
+
+    "nothing of note"
+
+commit 84233bbe9f1b4b15d3ddb65c9461e98207abff7f
+Author: Gabriel Lopez <gabriel.andres.lopez03@gmail.com>
+Date:   Tue Oct 18 18:32:10 2022 -0400
+
+    "Started on decision tree for challenges."
+
+commit 111ba448f843606502d4d886467e03822dd8b8c3
+Author: Gabriel Lopez <gabriel.andres.lopez03@gmail.com>
+Date:   Tue Oct 18 18:15:13 2022 -0400
+
+    "add script for boss fight (unfinished) and tutorial (working on now)"
+
+commit 38dabb7c878588c3244e1d34d4622d2c4babf2a8
+Author: Gabriel Lopez <gabriel.andres.lopez03@gmail.com>
+Date:   Tue Oct 18 17:43:42 2022 -0400
+
+    "added some more flavor to choices"
+
+commit 0a4b473210b359a4e79f558712ebc19f0e89e95d
+Author: Gabriel Lopez <gabriel.andres.lopez03@gmail.com>
+Date:   Tue Oct 18 17:25:41 2022 -0400
+
+    "add text to move player to new directory"
+
+commit 3a0a4f706b1c9e0af4e5aab5d1b8be269b09182a
+Author: Gabriel Lopez <gabriel.andres.lopez03@gmail.com>
+Date:   Tue Oct 18 17:03:48 2022 -0400
+
+    Thought I need more grass but found out that just grass is enough. Oh, and I added a broken decision tree
+
+commit 070e6f5578c9ef21c0f1db970df1c3477b4b1251
+Author: Gabriel Lopez <gabriel.andres.lopez03@gmail.com>
+Date:   Tue Oct 18 12:25:35 2022 -0400
+
+    added README and grass
