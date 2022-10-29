@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "(Mission Briefer): We are to entrust you to a special mission this time."
+echo "(Mission Briefer): (What you need to do)"
+echo "(Mission Briefer): In order to complete the assignment, you'll need this."
+echo "------------ECHO SKILL AQUIRED--------------"
+echo "| Allows user to output to screen or file. |"
+echo "|     Use by typing: echo \"(words)\"      |"
+echo "|     To append to a file, add:            |"
+echo "|     << (filename) to the end             |"
+echo "--------------------------------------------" 
+echo "(Mission Briefer): Now, go to the training area, you will need some practice."
