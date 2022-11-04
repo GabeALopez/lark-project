@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Files that script accepts
 FILE1=./iAmThePassword.txt
 FILE2=./noIAmThePassword.txt
 FILE3=./andIAmATxtFile.txt
