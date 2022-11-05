@@ -1,5 +1,8 @@
 #!/bin/bash
 
+rm userandpass
+cp .restart/userandpass ./
+
 echo "You enter the training area."
 echo "(Trainer): For this training exercise, we will have you output the username and password from the userandpass file."
 echo "(Trainer): Try to cat the userandpass file."
@@ -76,3 +79,4 @@ do
         fi
 done
 echo "Good, now get a move on for the mission."
+
