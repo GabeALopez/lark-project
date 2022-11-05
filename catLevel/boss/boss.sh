@@ -12,4 +12,5 @@ echo "But anyway, you should be able to stitch together the script file
 echo "We also believe that you might have to add your own
      writing in order to get the script to run."
 echo "We just need the passcode and we can get out of here. Good Luck." 
-echo "To additionally to start the script use append \"echo \"Start\"\" using echo at the beginning of the script."
+echo "To additionally to start the script use append \"echo \"Start\"\" 
+	using echo at the beginning of the script."
