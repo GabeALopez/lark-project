@@ -2,7 +2,7 @@
 
 echo "You enter the training area."
 echo "(Trainer): No time to waste. We will begin immediately."
-echo "(Trainer): First, try to echo my name by typing: echo \"Trainer\""
+echo "(Trainer): First, try to echo my name."
 echoName="echo \"Trainer\""
 counter=0
 while :
@@ -17,7 +17,7 @@ do
 		((counter=counter+1))
 		if [ $counter == 3 ]
 		then
-			echo "I even told you how to do it and you still can't do it? I'm losing hope here. Keep trying."
+			echo "My names on the screen and you still don't know it? I'm losing hope here. My name is Trainer. Now try again."
 			continue
 		fi
 		echo "Try again."
@@ -25,7 +25,7 @@ do
 		
 	fi
 done
-echo "(Trainer): Good, now for the last part to this training, try to append the password \"password\" to the password file by typing: echo \"password\" >> password.sh"
+echo "(Trainer): Good, now for the last part to this training, try to type this password to the password.sh file: password"
 password="echo \"password\" >> password.sh"
 while :
 do
