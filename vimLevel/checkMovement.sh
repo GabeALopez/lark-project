@@ -12,5 +12,5 @@ fi
  
 if [ $count == 0 ] && [ "$gateChar" == "o" ]
 then
-echo "Go forward"
+echo "Go Forward"
 fi
