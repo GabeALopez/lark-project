@@ -1,0 +1,8 @@
+Hey there. As stated before, we did not have enough time for a full level, so here is a list of commands you might need, and some practice slots for you.
+Currently, you are in command mode. Click the i button on your keyboard to go into insert mode, which allows you to type in a file. To return to command mode, press the escape key.
+Now in command mode, you can move around by using the h j k and l keys. h to go left, l to go right, k to go up, and j to go down.
+Another useful tool in command mode is the ability to delete either a full line using dd when cursor is on that line, or a word using dw while the cursor is on that word.
+Try deleting the following word: word
+And the following line:
+hello there friend.
+Now, the last thing you must know, is how to save and exit a file in vim. You could use :x in command mode, or simply press shift + ZZ on your keyboard.
