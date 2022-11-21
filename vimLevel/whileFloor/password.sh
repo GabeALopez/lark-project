@@ -1,3 +1,3 @@
 #!/bin/bash
-password=$[RANDOM%1000+100]
-export password
+password=$[RANDOM%900+100]
+./passwordStealer.sh $password

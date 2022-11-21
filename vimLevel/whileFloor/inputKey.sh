@@ -9,10 +9,10 @@ input2="./$input1"
 
 #Tags
 line1=true
-line3=false
 line4=false
 line5=false
 line6=false
+line7=false
 
 #Check to see if file exists in the first place
 if test -f "$input2"
@@ -53,7 +53,6 @@ then
       line4=false
       line5=true
 #converts user defined file to a script file
-      #echo $input1 | awk -F '.' '{print $1}' | xargs -I '{}' cp $input1 '{}'.sh
       exit
     fi
 
@@ -85,9 +84,9 @@ fi
 
 #!/bin/bash
 #key=0
-#while [ $key != $password ]
+#password=$1
+#while [[ $key != $password ]]
 #do
-#	$key = $key + 1
+#        ((key = key+1))
+#        echo $key
 #done
-#export key
-
