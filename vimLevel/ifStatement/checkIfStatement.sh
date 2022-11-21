@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Ask player for input 
+#Ask player for input file 
 echo "Input file name"
 
 #Read the file inputted
