@@ -9,3 +9,8 @@ Gabriel Lopez
 Alex
 
 Narrative:
+The story follows an agent that works with a team to use the
+power of linux to defeat Microsop
+
+Instructions:
+To start up the game, enter the (enter level directory here)
