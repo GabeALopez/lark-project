@@ -17,11 +17,7 @@ do
 
 done < "$file"
 
-echo "*cough* *cough* So you have defeated me after all
-	*cough* But this not my final form!!! 
-	*As Armstrong attempts to morb into a final form you 
-	just pull out your glock 19 and shoot him.* 
-	The End." 
+echo "*cough* *cough* So you have defeated me after all *cough*"
 
 
 #put story and destory boss
