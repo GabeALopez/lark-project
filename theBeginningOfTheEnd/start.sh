@@ -8,5 +8,5 @@ echo "Welcome back. After that attack we had from the enemy
 	to the drop off point. Get in there and have some fun.
 	We will be waiting for on the other side."
 	
-
+mv .movement/ movement/
 

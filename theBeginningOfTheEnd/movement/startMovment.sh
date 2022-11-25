@@ -7,4 +7,7 @@ echo "Ok we need to take out the guards and proceed inside the
 	delete the guards, which are marked by the \"g\" on the
 	map, and unlock the gate to the facility. The gate is 
 	marked by \"c\" on the map. You are going to need to 
-	make it open by replacing \"c\" with a \"o\" character."
+	make it open by replacing \"c\" with a \"o\" character.
+	We left you a validation script to see if your plan was
+	correct course of action. Make sure to run after you are
+	done with your plan."
