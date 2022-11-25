@@ -22,6 +22,7 @@ then
 				Whoever made that is either a 
 				dork or stupid or both. No 
 				wonder we got broken into."
+			mv ../../.theBeginningOfTheEnd/ ../../theBeginningOfTheEnd/
 		else
 			echo "So close, no time to boast"
 		fi
