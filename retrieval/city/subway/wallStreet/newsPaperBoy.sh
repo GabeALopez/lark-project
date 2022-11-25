@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Extra! Extra! Gamestop stock comes back from the grave"
+echo "Extra! Extra! Gamesop stock comes back from the grave"
