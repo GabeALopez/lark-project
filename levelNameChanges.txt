@@ -1,0 +1,7 @@
+1. start.sh -> beginings  
+2. cdLevel -> retrieval
+3. echoLevel -> aSenseOfFamiliarity
+4. catLevel -> aFatalError
+5. touchLevel -> defiantTillTheEnd
+6. vimLevel -> retaliation
+7. boss.sh -> theBeginingOfTheEnd
