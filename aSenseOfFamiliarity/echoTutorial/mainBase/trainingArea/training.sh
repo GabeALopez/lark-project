@@ -42,4 +42,3 @@ do
 
         fi
 done
-echo "(Trainer): Good, now move onto the simulation for more some field experience."

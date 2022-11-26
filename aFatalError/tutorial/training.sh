@@ -71,7 +71,7 @@ do
         IFS= read -r -p "Password: " input
         if [ "$input" == "$password" ]
         then
-		mv ../../../.boss/ ../../../boss/
+		mv ../.boss/ ../boss/
                 break
         else
                 echo "Try again."
