@@ -11,3 +11,5 @@ echo "Ok we need to take out the guards and proceed inside the
 	We left you a validation script to see if your plan was
 	correct course of action. Make sure to run after you are
 	done with your plan."
+mv .checkMovement.sh checkMovement.sh
+mv .entrance.txt entrance.txt

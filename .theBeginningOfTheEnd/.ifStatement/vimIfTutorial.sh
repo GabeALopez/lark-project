@@ -40,4 +40,4 @@
 # else
 # 	<commands>
 # fi
-
+mv .startIfStatement.sh startIfStatement.sh

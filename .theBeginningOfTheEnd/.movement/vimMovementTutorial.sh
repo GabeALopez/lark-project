@@ -10,3 +10,4 @@ echo "|     vim into a file by using:            |"
 echo "|           vim (filename)                 |"
 echo "--------------------------------------------"
 echo "(Mission Briefer): Now, we do not have time, so I must leave you on your own for this one. I have put together a file called movementCommands listing all the the basic commands to navigate a file in vim for you. If need be, try practicing on your own there."
+mv .startMovement.sh startMovement.sh
