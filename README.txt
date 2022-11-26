@@ -14,4 +14,5 @@ The story follows an agent that works with a group called lincorp.
 This group uses the power of linux to defeat Microsop
 
 Instructions:
+To see files, type ls
 To start up the game, use ./ followed by beginings.sh 
