@@ -15,7 +15,8 @@ case $1 in
 ;;
 3)
 	echo "---------starting training 3 out of 3---------"
-        echo -e "Print: Weee \vWeee \vWeee"
+        echo -e "Print: These \vare \vwords"
+	mv ../../.boss/ ../../boss/
 ;;
 4)
 	echo "You realize that there are only three challenges right?"

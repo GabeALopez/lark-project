@@ -25,7 +25,6 @@ then
     if [ "$line" == "#!/bin/bash" ] && [ $line1 == true ]
     then
 #Do what you want below
-      echo "good"
 #Do what you want above
 #Turns off the first and turns on third tag
       line1=false
@@ -38,7 +37,6 @@ then
 #Check for line
     if [ "$line" = "while [[ $key != $password ]]" ] && [ $line3 = true ]
     then
-      echo "Very good"
       line4=false
       line6=true
       continue
@@ -47,7 +45,7 @@ then
 #check for line
     if [ "$line" = "	((key = key+1))" ] && [ $line4 = true ]
     then
-      echo "Congrats"
+	mv ../.boss/ ../boss/
       line6=false
 #converts user defined file to a script file
       exit

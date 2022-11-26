@@ -32,6 +32,7 @@ do
 	IFS= read -r i
         if [ "$i" == "$password" ]
         then
+		mv ../../../.mockBattle/ ../../../mockBattle/
                 break
         else
                 #echo ${echoName}

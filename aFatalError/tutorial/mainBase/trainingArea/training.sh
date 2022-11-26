@@ -71,6 +71,7 @@ do
         IFS= read -r -p "Password: " input
         if [ "$input" == "$password" ]
         then
+		mv ../../../.mockBattle/ ../../../mockBattle/
                 break
         else
                 echo "Try again."

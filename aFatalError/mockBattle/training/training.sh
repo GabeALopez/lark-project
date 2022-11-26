@@ -18,6 +18,7 @@ c)
 
 	echo "Now echo your thoughts into a text document and cat it out."
 	echo "Good luck out there in your next misson."
+	mv ../../.boss/ ../../boss/
 
 ;;
 esac
