@@ -10,7 +10,7 @@ do
 	IFS= read -r input
 	if [ "$input" == "$echoName" ]
 	then
-		mv ../../../.boss/ ../../../boss/
+		mv ../.boss/ ../boss/
 		break
 	else
 		echo "Try again."

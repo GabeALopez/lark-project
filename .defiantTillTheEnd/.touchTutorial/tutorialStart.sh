@@ -6,4 +6,5 @@ echo "------------TOUCH SKILL AQUIRED--------------"
 echo "|     Allows user to create a blank file.  |"
 echo "|     Use by typing: touch (filename)      |"
 echo "--------------------------------------------" 
-echo "(Mission Briefer): Now, go to the training area, you will need some practice."
+echo "(Mission Briefer): Now begin the training."
+mv .training.sh training.sh
