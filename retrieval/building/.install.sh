@@ -1,5 +1,6 @@
 #!/bin/bash
+echo "Alright let's install the module."
 echo "installing......"
 echo "Module installed"
-echo "Good luck out there"
+echo "It's done. Good luck out there"
 mv ../../.aSenseOfFamiliarity/ ../../aSenseOfFamiliarity/
