@@ -1,11 +1,8 @@
 #!/bin/bash
 
-#Ask player for input
-echo "Input file name"
 
 #Read the file inputted
-IFS= read -r input1
-input2="./$input1"
+input2="./passwordDecrypter.sh"
 
 #Tags
 line1=true
@@ -17,30 +14,36 @@ if test -f "$input2"
 then
 
 #Read each line with a while loop
-  while IFS= read -r line
-  do
+	while IFS= read -r line
+	do
 
 #Check for a line in file
 #$line is the variable that holds the current line
-    if [ "$line" == "#!/bin/bash" ] && [ $line1 == true ]
-    then
+	if [ "$line" == "#!/bin/bash" ] && [ $line1 == true ]
+	then
 #Do what you want below
 #Do what you want above
 #Turns off the first and turns on third tag
-      line1=false
-      line4=true
+		line1=false
+		line4=true
 #continue use to keep the program from checking
 #every if statement
-      continue
-    fi
+		continue
+	else
+		echo "The decryptor is still not fixed properly. Try again."
+		break
+ 	fi
 
 #Check for line
-    if [ "$line" = "while [[ $key != $password ]]" ] && [ $line3 = true ]
-    then
-      line4=false
-      line6=true
-      continue
-    fi
+	if [ "$line" = "while [[ $key != $password ]]" ] && [ $line3 = true ]
+	then
+		line4=false
+		line6=true
+		continue
+	else
+		echo "The decryptor is still not fixed properly. Try again."
+		break
+	fi
 
 #check for line
     if [ "$line" = "	((key = key+1))" ] && [ $line4 = true ]
@@ -50,7 +53,7 @@ then
 #converts user defined file to a script file
       exit
     fi
-  done < $input1
+  done < $input2
 
 
 
