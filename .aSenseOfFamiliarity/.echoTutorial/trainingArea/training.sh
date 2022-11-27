@@ -32,7 +32,7 @@ do
 	IFS= read -r i
         if [ "$i" == "$password" ]
         then
-		mv ../../../.boss/ ../../../boss
+		mv ../../.boss/ ../../boss
                 break
         else
                 #echo ${echoName}
