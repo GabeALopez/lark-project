@@ -46,19 +46,18 @@ then
 	fi
 
 #check for line
-    if [ "$line" = "	((key = key+1))" ] && [ $line4 = true ]
-    then
-	mv ../.boss/ ../boss/
-      line6=false
+	if [ "$line" = "	((key = key+1))" ] && [ $line4 = true ]
+	then
+		mv ../.boss/ ../boss/
+		line6=false
 #converts user defined file to a script file
-      exit
-    fi
-  done < $input2
+		exit
+	else
+		echo "The decryptor is still not fixed properly. Try again."
+		break
+	fi
+	done < $input2
 
-
-
-else
-  echo "The file does not exist."
 fi
 
 #To include more checks for differing lines add line var
