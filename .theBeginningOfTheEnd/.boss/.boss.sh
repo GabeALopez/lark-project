@@ -1,6 +1,7 @@
 #!/bin/bash
 
-#cat bossValidation.sh
+#cat bossValidation.sh (This line is note 
+#	involved with the script)
 #Use while loop to print out
 #numbers from 0-1000
 

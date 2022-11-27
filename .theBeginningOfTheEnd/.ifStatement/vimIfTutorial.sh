@@ -28,16 +28,3 @@
 
 # The previous if statement checks if the first command line arguement is equal to 100, and if it is, prints the echo statement.
  
-# You can also create a nested if statement, which is simply an if statement in an if statement, effectively checking two conditions.
-# Other useful tools are the elif and else statements, which come right after an if statement. elif allows one to check for a condition if the original condition was false. else statement is a final statement that states if both if and any following elif statements are false, do <commands>
-# For an elif and else statement the syntax is as follows:
-
-# if [ <some test> ]
-# then
-# 	<commands>
-# elif
-# 	<commands>
-# else
-# 	<commands>
-# fi
-mv .startIfStatement.sh startIfStatement.sh

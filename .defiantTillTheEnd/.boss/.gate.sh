@@ -23,6 +23,7 @@ then
 				dork or stupid or both. No 
 				wonder we got broken into."
 			mv ../../.theBeginningOfTheEnd/ ../../theBeginningOfTheEnd/
+			echo "*make sure cd .. twice to get back*"
 		else
 			echo "So close, no time to boast"
 		fi

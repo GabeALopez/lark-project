@@ -13,4 +13,6 @@ fi
 if [ $count == 0 ] && [ "$gateChar" == "o" ]
 then
 echo "Go Forward"
+mv ../.ifStatement/ ../ifStatement/
+echo "*cd .. twice to get back*"
 fi

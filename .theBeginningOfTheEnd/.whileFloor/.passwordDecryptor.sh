@@ -4,5 +4,5 @@ password=$1
 while [ $key != $password ]
 done
 	(key = key+1)
-	cho $key
+	echo $key
 do

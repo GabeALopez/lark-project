@@ -1,4 +1,4 @@
-#!/bin/bash"
+#!/bin/bash
 echo "(Mission Briefer): In order to complete the mission, you will need this: "
 echo "------------CAT SKILL AQUIRED--------------"
 echo "| Allows user to output contents of a file |"

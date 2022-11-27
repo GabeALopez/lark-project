@@ -48,6 +48,8 @@ then
 #check for line
 	if [ "$line" = "	((key = key+1))" ] && [ $line4 = true ]
 	then
+		echo "Good the door opened. You can now go to the
+		next floor."
 		mv ../.boss/ ../boss/
 		line6=false
 #converts user defined file to a script file
