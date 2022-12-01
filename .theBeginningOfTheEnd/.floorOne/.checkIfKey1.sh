@@ -30,7 +30,11 @@ then
 
     if [ "$line" == "if [ \$yellowFish == \$threeFish ]" ] && [ $line2 == true ]
     then
-      echo "Accepted"
+      echo "Accepted. Alright next key"
+	mv ./.checkIfKey2.sh ./checkIfKey2
+	mv ./.ifKey2.sh ./ifKey2.sh
+	echo ""
+	ls
       exit
     fi
 

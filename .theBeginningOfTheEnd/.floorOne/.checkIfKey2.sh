@@ -28,9 +28,13 @@ then
       continue
     fi
 
-    if [ "$line" == "if [ \$blueFish > \$twoFish ]" ] && [ $line2 == true ]
+    if [ "$line" == "if [ \$oneFish != \$redfish ]" ] && [ $line2 == true ]
     then
-      echo "Access Granted"
+      echo "Accepted, ok last one"
+	mv ./.checkIfKey3.sh ./checkIfKey3.sh
+	mv ./.ifKey3.sh ./ifKey3.sh
+	echo ""
+	ls
       exit
     fi
 

@@ -12,7 +12,13 @@ fi
  
 if [ $count == 0 ] && [ "$gateChar" == "o" ]
 then
-echo "Go Forward"
-mv ../.ifStatement/ ../ifStatement/
-echo "*cd .. twice to get back*"
+echo "Alright, keep going"
+echo ""
+echo -e "\e[1mcd into floorOne\e[0m"
+echo ""
+cd ../
+mv .floorOne/ floorOne/
+ls
+exec bash
+
 fi

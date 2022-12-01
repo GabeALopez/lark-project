@@ -1,3 +1,12 @@
 #!/bin/bash
 fold -sw 50 <.story.txt
-mv .movement/ movement
+
+if [ -d "./.movement" ] 
+        then
+	mv .entrance/ entrance
+fi
+
+echo ""
+echo -e "\e[1mcd into entrance\e[0m"
+echo ""
+ls

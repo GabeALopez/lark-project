@@ -28,9 +28,18 @@ then
       continue
     fi
 
-    if [ "$line" == "if [ \$oneFish != \$redfish ]" ] && [ $line2 == true ]
+    if [ "$line" == "if [ \$blueFish > \$twoFish ]" ] && [ $line2 == true ]
     then
-      echo "Accepted"
+      echo "Access Granted. Good, we're in. Head to the next 
+	floor"	
+	echo ""
+	echo -e "\e[1mcd into floorTwo\e[0m"
+	echo ""
+	cd ../
+	mv .floorTwo/ floorTwo/
+	ls
+	exec bash
+
       exit
     fi
 

@@ -50,7 +50,15 @@ then
 	then
 		echo "Good the door opened. You can now go to the
 		next floor."
-		mv ../.boss/ ../boss/
+
+		echo ""
+		echo -e "\e[1mcd into finalFloor\e[0m"
+		echo ""
+		cd ../
+		mv .finalFloor/ finalFloor/
+		ls
+		exec bash
+
 		line6=false
 #converts user defined file to a script file
 		exit
