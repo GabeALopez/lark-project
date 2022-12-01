@@ -10,8 +10,7 @@ Gabriel Lopez
 Alexander Go
 
 Narrative:
-The story follows an agent that works with a group called lincorp.
-This group uses the power of linux to defeat Microsop
+In the year 20XX, you work for a secret military organization known as Lincorp. They have been developing a new system to install into the human body known as Linux. They successfully integrate Linux into you, but you find out that an evil organization known as Microsop has sabotaged the system, leaving it semi-incomplete. As Lincorp’s first super soldier installed with Linux, your job is to test out these systems, and stop Microsop from controlling the world.
 
 Instructions:
 To see files, type ls

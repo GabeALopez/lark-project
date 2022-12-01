@@ -4,8 +4,8 @@ rm userandpass
 cp .restart/userandpass ./
 
 echo "You enter the training area."
-echo "(Trainer): For this training exercise, we will have you output the username and password from the userandpass file."
-echo "(Trainer): Try to cat the userandpass file."
+echo "(Laika): For this training exercise, we will have you output the username and password from the userandpass file."
+echo "(Laika): Try to cat the userandpass file."
 user="cat userandpass"
 while :
 do
@@ -20,7 +20,7 @@ do
 		
 	fi
 done
-echo "(Trainer): Oh, it looks like I forgot to append the password file to the userandpass file. Would you mind doing that for me?"
+echo "(Laika): Oh, it looks like I forgot to append the password file to the userandpass file. Would you mind doing that for me?"
 password="cat password >> userandpass"
 while :
 do
@@ -37,7 +37,7 @@ do
 
         fi
 done
-echo "(Trainer): Good, now cat userandpass again, and type in the username and password to login to your new account."
+echo "(Laika): Good, now cat userandpass again, and type in the username and password to login to your new account."
 newuser="cat userandpass"
 while :
 do
@@ -71,7 +71,13 @@ do
         IFS= read -r -p "Password: " input
         if [ "$input" == "$password" ]
         then
-		mv ../.boss/ ../boss/
+		echo ""
+		echo -e "\e[1mcd into mission\e[0m"
+		echo ""
+		cd ../
+		mv .mission/ mission/
+		ls
+		exec bash
                 break
         else
                 echo "Try again."

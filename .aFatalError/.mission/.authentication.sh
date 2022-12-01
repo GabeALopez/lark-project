@@ -13,8 +13,15 @@ myPasswordIsPassword)
 	echo "*bzzt* Enemy detected in sector 15 *bzzt*"
 	echo "Alright thanks agent, we can take it from here."
 	echo "We will now be able to drive them out."
-	mv ../../.defiantTillTheEnd/ ../../defiantTillTheEnd/
-	echo "*make sure to cd .. twice to back up*"
+
+	echo ""
+	echo -e "\e[1mcd into defiantTillTheEnd\e[0m"
+	echo ""
+	cd ../../
+	mv .defiantTillTheEnd/ defiantTillTheEnd/
+	ls
+	exec bash
+
 	break
 
 ;;

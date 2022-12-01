@@ -17,13 +17,23 @@ then
 		then
 			echo "My file is unblurred so here is your password:"
 			echo "lincorpIsReallyCool"
+			echo ""
 			echo "Good agent you got the password. 
-				Huh... That is one lame password.
+				Wow, that is one lame password.
 				Whoever made that is either a 
-				dork or stupid or both. No 
+				dork or stupid. Or both. No 
 				wonder we got broken into."
+
+			echo ""
+			echo -e "\e[1mcd into theBeginningOfTheEnd\e[0m"
+			echo ""
+			cd ../../
+			mv .theBeginningOfTheEnd/ theBeginningOfTheEnd/
+			ls
+			exec bash
+
+
 			mv ../../.theBeginningOfTheEnd/ ../../theBeginningOfTheEnd/
-			echo "*make sure cd .. twice to get back*"
 		else
 			echo "So close, no time to boast"
 		fi

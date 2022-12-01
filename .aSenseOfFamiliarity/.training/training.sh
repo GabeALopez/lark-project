@@ -1,8 +1,12 @@
 #!/bin/bash
 
 echo "You enter the training area."
-echo "(Trainer): No time to waste. We will begin immediately."
-echo "(Trainer): First, try to echo my name by typing: echo \"Trainer\""
+echo "(Laika): This system is used with all trainees."
+echo "(Laika): So trainers are merely called \"trainer\"." 
+echo "(Laika): Which will be referring to me through out these 
+	training modules."
+echo "(Laika): No time to waste. We will begin immediately."
+echo "(Laika): First, try to echo my name by typing: echo \"Trainer\""
 echoName="echo \"Trainer\""
 counter=0
 while :
@@ -25,14 +29,21 @@ do
 		
 	fi
 done
-echo "(Trainer): Good, now for the last part to this training, try to append the password \"password\" to the password file by typing: echo \"password\" >> password.sh"
+echo "(Laika): Good, now for the last part to this training, try to append the password \"password\" to the password file by typing: echo \"password\" >> password.sh"
 password="echo \"password\" >> password.sh"
 while :
 do
 	IFS= read -r i
         if [ "$i" == "$password" ]
         then
-		mv ../../.boss/ ../../boss
+		echo "Good, you now ready for your next mission."
+		echo ""
+		echo -e "\e[1mcd into mission\e[0m"
+		echo ""
+		cd ../
+		mv .misson mission
+		ls
+		exec bash
                 break
         else
                 #echo ${echoName}

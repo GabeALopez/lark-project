@@ -1,4 +1,12 @@
 #!/bin/bash
+
 fold -sw 50 <.beginnings.txt
-mv .retrieval/ retrieval/
-echo "cd into retrieval"
+echo ""
+if [ -d "./.retrieval" ] 
+	then
+	mv .retrieval/ retrieval/
+fi
+
+echo -e "\e[1mcd into retrieval\e[0m"
+echo ""
+ls

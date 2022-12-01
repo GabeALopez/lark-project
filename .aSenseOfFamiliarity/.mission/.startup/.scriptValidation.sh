@@ -14,6 +14,13 @@ then
       then
         mv ../../../.aFatalError/ ../../../aFatalError/	 
         echo "After shutting down the sentry robots and security, you bring another module to Professor Laika" 
+
+	echo -e "\e[1mcd into aFatalError\e[0m"
+	echo ""
+	cd ../../../
+	mv .aFatalError/ aFatalError/
+	ls
+	exec bash
         else
           echo "Error --- Injection code rejected"
     fi		
