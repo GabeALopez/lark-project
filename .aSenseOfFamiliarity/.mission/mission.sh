@@ -7,3 +7,4 @@ echo "One our guys left some previous instructions for you
 	to use in the docs folder."
 echo "Find thier startup folder and inject the code inside 
 	the startup file." 
+echo "Make sure to \"ls\" everywhere you go"

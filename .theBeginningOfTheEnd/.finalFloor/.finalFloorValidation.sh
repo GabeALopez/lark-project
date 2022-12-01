@@ -13,11 +13,20 @@ do
 	if [ $count == 333 ]
 	then
 		break
+	else
+		echo "Ha, do you think that will work 
+			against me?"
+		exit
 	fi
 
 done < "$file"
 
 echo "*cough* *cough* So you have defeated me after all *cough*"
+echo "	----------Credits---------- 
+	storyWriter=thomasSpangler
+	betaTester+ASCII=alexanderGo
+	programmer=gavinBinder	
+	programmer=gabrielLopez"
 
 
 #put story and destory boss

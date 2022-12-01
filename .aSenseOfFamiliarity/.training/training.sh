@@ -41,7 +41,7 @@ do
 		echo -e "\e[1mcd into mission\e[0m"
 		echo ""
 		cd ../
-		mv .misson mission
+		mv .mission mission
 		ls
 		exec bash
                 break
