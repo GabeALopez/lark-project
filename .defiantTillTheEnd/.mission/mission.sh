@@ -8,9 +8,9 @@ echo "After that attack we have to do some rebuilding. A large
 	main access route to our servers is locked. We have a
 	script that looks for passwords, or keys, but they were
 	lost in the scuffle so we need you to go in and try to 
-	forge them instead. We need you to see if you can 
-	analyze the script to try to find the password files
-	it is looking for."
+	use touch with them instead. We need you to see 
+	if you can analyze the script to try to find the 
+	password files it is looking for."
 	
 echo "We found some hidden files in the documents, desktop, 
 	and desktop directories."

@@ -1,7 +1,7 @@
 #!/bin/bash
 fold -sw 50 <.story.txt
 
-if [ -d "./.movement" ] 
+if [ -d "./.entrance" ] 
         then
 	mv .entrance/ entrance
 fi

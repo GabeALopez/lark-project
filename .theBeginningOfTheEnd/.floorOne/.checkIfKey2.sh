@@ -28,7 +28,7 @@ then
       continue
     fi
 
-    if [ "$line" == "if [ \$oneFish != \$redfish ]" ] && [ $line2 == true ]
+    if [ "$line" == "if [ \$oneFish != \$redFish ]" ] && [ $line2 == true ]
     then
       echo "Accepted, ok last one"
 	mv ./.checkIfKey3.sh ./checkIfKey3.sh

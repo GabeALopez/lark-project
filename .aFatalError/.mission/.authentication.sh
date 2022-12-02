@@ -27,6 +27,7 @@ myPasswordIsPassword)
 ;;
 *)
 	echo "Nope"
+	break
 ;;
 esac
 done

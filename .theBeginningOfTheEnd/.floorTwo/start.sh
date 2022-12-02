@@ -6,7 +6,7 @@ echo -e "We need to use the passwordDecrypter on the door in
 echo -e "\e[31mWhen you are done, run the inputKey.sh file to 
 	input the password and pass through the door.\e[0m"
 
-if [ -f "./.retrieval" ] 
+if [ -f "./.passwordDecryptor.sh" ] 
         then
 		if [ -f "./.whileManual.txt" ]
 			then

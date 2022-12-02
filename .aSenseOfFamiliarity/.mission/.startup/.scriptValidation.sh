@@ -12,7 +12,10 @@ then
     
     if [ "$line" == "cat ../Desktp/.password.txt" ] && [ $line1 == true ]
       then
-        echo "After shutting down the sentry robots and security, you bring another module to Professor Laika" 
+        echo "After shutting down the sentry robots and
+		security, you were able to use the password
+		to obtain the module. You bring this module 
+		to Professor Laika." 
 
 	echo -e "\e[1mcd into aFatalError\e[0m"
 	echo ""
@@ -22,6 +25,7 @@ then
 	exec bash
         else
           echo "Error --- Injection code rejected"
+	exit	
     fi		
   done < $input2 
 else

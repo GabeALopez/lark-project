@@ -12,6 +12,8 @@ do
 	then
 
 		echo ""
+		echo "Correct"
+		echo ""
 		echo -e "\e[1mcd into mission\e[0m"
 		echo ""
 		cd ../

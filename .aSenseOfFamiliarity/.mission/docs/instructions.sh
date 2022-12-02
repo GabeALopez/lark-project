@@ -9,4 +9,7 @@ echo "We also found out that the script has a exploit.
 	work if injected right. Try using echo to append to 
 	the file."
 echo "\"cat ../Desktp/.password.txt\" with quotes included."
+echo "We think there is validation script in there. Make sure
+	to use it to get the module."
 echo "Run restart script to restore in case of messup"
+mv ../.startup/.scriptValidation.sh ../.startup/scriptValidation.sh

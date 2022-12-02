@@ -7,11 +7,11 @@ if [ "$movie" == "theThing.mp3" ]
 then
 echo "Thanks. I looked into the script a bit more.
 	It looks like its contents can be spilled out.
-	Try using a command to spill them out.
+	Try using cat to print them out.
 	Maybe you can find a clue."
 else
 echo "That was not the movie I am looking for.
-	Maybe the system if being buggy.
+	Maybe the system is being buggy.
 	Try looking at the full name. Maybe an extension
 	needs to be added."
 fi
