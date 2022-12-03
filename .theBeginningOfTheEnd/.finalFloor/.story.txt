@@ -1,0 +1,9 @@
+*You arrive on the rooftop of the Microsop headquarters and see a singular man waiting for you* 
+
+“I did not expect Lincorp’s super soldier to infiltrate my headquarters, let alone reach me. I applaud you. However, this is where it ends for you and Lincorp. 
+
+*You see who you assume to be the president of Microsop activate a switch on his holographic terminal. You try to move closer to him, but you realize you’re frozen and can’t move at all*  
+
+“It’s that simple, I have stopped you in your tracks with a single press of a button. I’m sure you’ve heard of power shell, right? Well with some modifications, I can connect to any system I want. Even your newly developed Linux. Using your system, I stopped you from moving. Now all I have to do is connect you to power shell and you’ll be under my control.  
+
+\e[31m*You remember seeing in the manual how VIM can be used to create power scripts to hack your enemy. You think you can use a self-created script to hack the president of microsop as he is connected to you in order to stop him*\e[0m 

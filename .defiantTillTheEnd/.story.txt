@@ -1,0 +1,3 @@
+*Command L can be seen in the debriefing room* 
+
+“Thanks to you and Professor Laika’s quick work, we were able to stop the breach in our servers and hold off Microsop’s attack.\e[31mYour next mission is not as difficult as the others, you will be helping to repair the files that were corrupted during the breach.\e[0m While you are doing that, a team and I are going to analyze the breach and find out where Microsop’s secret base is located. \e[31mProfessor Laika will be in the training room again to teach you the command that will help you repair the files.\e[0m”

@@ -1,0 +1,5 @@
+Concepts to cover:
+1. Movement
+2. Conditional statements
+3. Loops
+4. Final Script boss

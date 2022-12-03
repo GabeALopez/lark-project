@@ -1,0 +1,16 @@
+
+You made it, I thought the map was broken or something. Of course it’s not broken, I made sure of that!  
+
+*You see the professor give a stern look to the man in the military uniform*  
+
+Anyways it’s nice to meet you face to face, again I’m Commander L. The person next to me will be teaching you Linux and helping you master it. Nice to meetcha, I’m Professor Laika, I oversaw the Linux development project, so I pretty much know everything there is to know about It. I’ll be making sure that you know how to operate Linux and use it during your missions. Now that introductions are out of the way let’s start on the mission debriefing. 
+
+*Digital files appear Infront of you and open to reveal a bunch of information* 
+
+“Our enemy is an organization known as Microsop. They are a secret organization that has control over every system in the world. We have developed an alternative system in order to stop this monopoly, but we were found out. As for your mission, we have located one of the missing modules for Linux in a Microsop owned warehouse located in the city. Some of our spies tried to break into it but were unable to crack the lock on it and were found. With Linux, you should be able to get into it without the problem. \e[31mTo get to the warehouse, first exit this building to head into the city, then head towards the underground subway and take it to Hub Street. Lastly, go behind the tall skyscraper to get to the warehouse. Once you get into the warehouse and obtain the module, retrace your steps to come back here so we can install it into you.\e[0m That is all for the mission debriefing. I’ll have to be on my way, I have another important task at hand. Professor Laika shall assist you with the commands you’ll need to break into the warehouse. 
+
+*Commander L gets up from his chair and leaves the room. *  
+
+That guy can be something else, don’t worry though he has a lot on his plate. Normally, we’d go to the training room in order to have you practice but I think you figured that out when you got here.  
+
+*Professor Laika leaves the room* 

@@ -1,0 +1,3 @@
+*You enter the debriefing room expecting to see Commander L, but greeting you is Professor Laika* 
+
+“Nice job recovering the last missing module Agent, I know you just got back from your mission, but this is an emergency. Microsop is attacking our servers and destroying Lincorp from the inside! Commander L is trying to maintain order. \e[31mIn the meantime, come with me to the training room. I’m going to teach you a command that can potentially get us out of the situation.\e[0m 
