@@ -16,7 +16,8 @@ echo "We found some hidden files in the documents, desktop,
 	and desktop directories."
 echo "The hidden files are called \".pass1.txt\", \".pass2.txt\"
 	, and \".pass3.txt\" respectivly."
-echo "We also suggest you cat them together in one file."
+echo "We also suggest you cat them together in one file in 
+	order."
 echo "Also one of us really likes old horror films and 
 	apparently this node has a movie file 
 	somewhere in here." 

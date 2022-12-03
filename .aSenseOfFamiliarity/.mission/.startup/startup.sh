@@ -8,4 +8,3 @@ else
 	echo "The file is not here"
 fi
 ./.scriptValidation.sh startup.sh
-cat ../Desktp/.password.txt
