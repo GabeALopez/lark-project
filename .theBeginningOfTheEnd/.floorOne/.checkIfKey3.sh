@@ -1,11 +1,6 @@
 #!/bin/bash
 
-#Ask player for input file 
-echo "Input file name"
-
-#Read the file inputted
-IFS= read -r input1
-input2="./$input1"
+input2="./ifKey3.sh"
 
 #Tags
 line1=true

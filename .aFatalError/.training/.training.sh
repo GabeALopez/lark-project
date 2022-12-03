@@ -52,7 +52,7 @@ do
 
         fi
 done
-username="username"
+username="XX_LINUXLOV3R_XX"
 while :
 do
         IFS= read -r -p "Username: " input
@@ -65,7 +65,7 @@ do
 
         fi
 done
-password="password"
+password="ILOVELINUX"
 while :
 do
         IFS= read -r -p "Password: " input

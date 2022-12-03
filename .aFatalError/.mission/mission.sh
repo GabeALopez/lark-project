@@ -7,9 +7,9 @@ echo "We tried to look into who broke into our
 	That being said we have a authentication script 
 	that will be able to tell us
 	where the breach is. We will need 
-	you agent to find files the enemy scattered 
-	around in different directories and cat them into a
-	a the empty script in the correct order. This will 
+	you to find files the enemy scattered 
+	around in different directories and cat them into
+	the empty script in the correct order. This will 
 	tell you the keyword that is needed to feed to the 
 	script." 
 echo "We just need know where they are attacking with that script
