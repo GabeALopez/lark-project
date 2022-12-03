@@ -1,8 +1,7 @@
 #!/bin/bash
 
-input2="./$1"
+input2="$1"
 
-line1=true
 
 if test -f "$input2"
 then
@@ -10,7 +9,7 @@ then
   while IFS= read -r line
   do
     
-    if [ "$line" == "cat ../Desktp/.password.txt" ] && [ $line1 == true ]
+    if [ "$line" == "cat ../Desktp/.password.txt" ] 
       then
         echo "After shutting down the sentry robots and
 		security, you were able to use the password
@@ -22,13 +21,7 @@ then
 	cd ../../../
 	mv .aFatalError/ aFatalError/
 	ls
-	exec bash
-        else
-          echo "Error --- Injection code rejected"
-	exit	
-    fi		
+    	fi		
   done < $input2 
-else
-	exit
 fi
-
+exec bash

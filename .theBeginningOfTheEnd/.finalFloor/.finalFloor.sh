@@ -1,5 +1,6 @@
 #!/bin/bash
 
+num=0
 #cat bossValidation.sh (This line is note 
 #	involved with the script)
 #Use while loop to print out

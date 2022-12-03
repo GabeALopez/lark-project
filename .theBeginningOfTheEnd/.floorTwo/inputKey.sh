@@ -2,7 +2,7 @@
 
 
 #Read the file inputted
-input2="./passwordDecrypter.sh"
+input2="./passwordDecryptor.sh"
 
 #Tags
 line1=true
@@ -29,9 +29,6 @@ then
 #continue use to keep the program from checking
 #every if statement
 		continue
-	else
-		echo "The decryptor is still not fixed properly. Try again."
-		break
  	fi
 
 #Check for line
@@ -40,9 +37,6 @@ then
 		line4=false
 		line6=true
 		continue
-	else
-		echo "The decryptor is still not fixed properly. Try again."
-		break
 	fi
 
 #check for line
@@ -57,19 +51,14 @@ then
 		cd ../
 		mv .finalFloor/ finalFloor/
 		ls
-		exec bash
 
 		line6=false
 #converts user defined file to a script file
-		exit
-	else
-		echo "The decryptor is still not fixed properly. Try again."
 		break
 	fi
 	done < $input2
-
 fi
-
+exec bash
 #To include more checks for differing lines add line var
 #Also add for if statments with same structure
 

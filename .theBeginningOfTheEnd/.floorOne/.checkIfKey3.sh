@@ -38,9 +38,8 @@ then
 	cd ../
 	mv .floorTwo/ floorTwo/
 	ls
-	exec bash
 
-      exit
+      break
     fi
 
 
@@ -48,4 +47,5 @@ then
 else
   echo "The file does not exist."
 fi
+exec bash
 
