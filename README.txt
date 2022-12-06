@@ -14,5 +14,5 @@ In the year 20XX, you work for a secret military organization known as Lincorp. 
 
 Instructions:
 To see files, type ls
-To start up the game, use ./ followed by beginings.sh. This will be done for each script you encounter. 
-Use the following comamnd to see the cover art: cat coverArt.txt
+To start up the game, use ./ followed by beginnings.sh. This will be done for each script you encounter. 
+Use the following command to see the cover art: cat coverArt.jpg
