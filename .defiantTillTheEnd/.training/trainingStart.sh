@@ -1,4 +1,5 @@
 #!/bin/bash
+#unhides the training script
 echo "(Mission Briefer): We are to entrust you to a special mission this time."
 echo "(Mission Briefer): (What you need to do)"
 echo "(Mission Briefer): In order to complete the assignment, you'll need this."

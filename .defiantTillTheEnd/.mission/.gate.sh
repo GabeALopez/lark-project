@@ -7,6 +7,7 @@ FILE3=./andIAmATxtFile.txt
 
 echo "Give me file or be in denial"
 
+#series of checks to see if the given files are in the current working directory
 if test -f "$FILE1"
 then
 	echo "$FILE1 exists so I will persist."

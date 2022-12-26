@@ -1,6 +1,7 @@
 #!/bin/bash
 #fold -sw 50 <.story.txt
 
+#reads story txt file
 input="./.story.txt"
 while IFS= read -r line
 do

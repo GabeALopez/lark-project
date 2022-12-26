@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#check the file the player edited
 input2="./ifKey1.sh"
 
 #Tags

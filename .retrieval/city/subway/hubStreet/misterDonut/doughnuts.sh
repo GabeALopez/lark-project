@@ -1,4 +1,5 @@
 #!/bin/bash
+#easter egg
 echo "Instead of going to your misson to save the world, 
 	you came here to eat donuts. After you ate one
 	doughnut you kept eating one after the other. 

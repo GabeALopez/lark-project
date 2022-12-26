@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#gives instructions on what the player should do
 echo "A hidden directory was found. It is hidden somewhere
 	with the directories. We know it is called .startup.
 	we think it is in the home directory."

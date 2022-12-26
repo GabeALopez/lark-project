@@ -4,6 +4,7 @@ echo "What's the password."
 
 while [ true ]
 do
+#looks for password that the player catted together
 
 read decision
 

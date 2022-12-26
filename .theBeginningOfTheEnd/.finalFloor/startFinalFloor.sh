@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#outpus story file and unhides next portion of the level
 input="./.story.txt"
 while IFS= read -r line
 do

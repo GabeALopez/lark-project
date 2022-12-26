@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#used as a refernce for what the player has to create
 #Use while loop to print out
 #numbers from 0-1000
 num=0

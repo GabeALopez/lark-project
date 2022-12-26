@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Starts dialogue for the mission part of the level
 echo "----------Entering Main Node 2----------"
 echo "We were able to leave a script, but were kicked 
 	out before we could do anything."

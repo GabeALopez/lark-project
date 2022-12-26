@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#script used to create scripts
 echo "Enter script name:"
 IFS= read -r decision
 touch $decision.sh

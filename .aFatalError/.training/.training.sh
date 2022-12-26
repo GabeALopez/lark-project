@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#trains player on how to use cat
 rm userandpass
 cp .restart/userandpass ./
 
@@ -9,6 +10,7 @@ echo "(Laika): Try to cat the userandpass file."
 user="cat userandpass"
 while :
 do
+#instructs player to cat out a file
 	IFS= read -r input
 	if [ "$input" == "$user" ]
 	then
@@ -24,6 +26,7 @@ echo "(Laika): Oh, it looks like I forgot to append the password file to the use
 password="cat password >> userandpass"
 while :
 do
+#teach player to append files using cat
 	IFS= read -r i
         if [ "$i" == "$password" ]
         then
@@ -41,6 +44,7 @@ echo "(Laika): Good, now cat userandpass again, and type in the username and pas
 newuser="cat userandpass"
 while :
 do
+#use info from the txt file to paste in user and pass
         IFS= read -r input
         if [ "$input" == "$newuser" ]
         then

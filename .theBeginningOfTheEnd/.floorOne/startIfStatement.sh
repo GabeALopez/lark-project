@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#directs player what to do
+#unhides first file the player alters
 echo "Alright agent the gate ahead is locked. Damn, they 
 	destroyed the entry script. It looks like we need 
 	to fix the script using VIM. Do it before anymore 

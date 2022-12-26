@@ -1,4 +1,7 @@
 #!/bin/bash
+
+#unhides files the player needs to use
+#gives the story for this level of the game
 echo -e "We need to use the passwordDecrypter on the door in 
 	order to go to the next floor. But the decrypter is 
 	broken. \e[31mYou'll have to fix it using the knowledge 

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#prints out what the player needs to do
+#unhides validation script and main file that player edits
 echo -e "Ok we need to take out the guards and proceed inside the
 	building. We are looking for the core of the facility.
 	There are going to be some hurdles for you to get past

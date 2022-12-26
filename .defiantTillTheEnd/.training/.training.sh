@@ -7,6 +7,7 @@ echoName="touch newFile"
 counter=0
 while :
 do
+#teach player to touch a new file
 	IFS= read -r input
 	if [ "$input" == "$echoName" ]
 	then

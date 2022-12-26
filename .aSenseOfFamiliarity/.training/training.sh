@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#Starts the training portion of the game
 echo "You enter the training area."
 echo "(Laika): No time to waste. We will begin immediately."
 echo "(Laika): First, try to echo my name by typing: echo \"Laika\""
@@ -7,6 +8,7 @@ echoName="echo \"Laika\""
 counter=0
 while :
 do
+#ask player to echo an input
 	IFS= read -r input
 	if [ "$input" == "$echoName" ]
 	then
@@ -29,6 +31,7 @@ echo "(Laika): Good, now for the last part to this training, try to append the p
 password="echo \"password\" >> password.sh"
 while :
 do
+#ask player to append to a file
 	IFS= read -r i
         if [ "$i" == "$password" ]
         then

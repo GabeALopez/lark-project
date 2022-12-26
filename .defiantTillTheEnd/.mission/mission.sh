@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#unhides script for the player to progress
+#instructs the player on what to do
 echo "user: Accepted"
 echo "password: Accepted"
 echo "-----------Entering Node 4----------"

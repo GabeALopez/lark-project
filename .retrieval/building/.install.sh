@@ -1,4 +1,5 @@
 #!/bin/bash
+#Progresses player to next area
 echo "Alright let's install the module."
 echo "installing......"
 echo "Module installed"

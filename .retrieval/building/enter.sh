@@ -1,6 +1,7 @@
 #!/bin/bash
 #fold -sw 50 <.script.txt
 
+#Script used to read story txt file
 input="./.script.txt"
 while IFS= read -r line
 do

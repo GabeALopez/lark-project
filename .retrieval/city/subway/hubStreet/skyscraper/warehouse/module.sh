@@ -1,4 +1,5 @@
 #!/bin/bash
+#Progresses player to next area
 echo "Using your master skills, you sneak by the guards and break
 	the lock. You search through the mounds of crates and
 	see a shimer. There it is, the module. You sneak out

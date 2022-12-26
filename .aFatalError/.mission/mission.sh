@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#instruct player on what to do
 echo "----------Entering Node 3----------"
 echo "We tried to look into who broke into our 
 	servers but they are very cunning. They made 

@@ -1,6 +1,7 @@
 #!/bin/bash
 #fold -sw 50 <.story.txt
 
+#print out story txt file and unhides next area to go to
 input="./.story.txt"
 while IFS= read -r line
 do
